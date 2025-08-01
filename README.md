@@ -1,4 +1,16 @@
 # Fine-Tuning TinyLlama with QLoRA on Persian Call Center Dataset
+
+---
+# 👤 About Me 
+
+-Name :Melody Mousavi 
+
+-Company:SedraPro
+
+-Website :WWW.SedraPro.Com
+
+
+
 ## Project Description
 
 This project demonstrates how to fine-tune the [TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) large language model using QLoRA on a custom Persian dataset 
