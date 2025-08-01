@@ -1,9 +1,13 @@
 # Fine-Tuning TinyLlama with QLoRA on Persian Call Center Dataset
-## 📁 Project Description
+## Project Description
 
-This project demonstrates how to fine-tune the [TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) large language model using QLoRA 
-on a custom Persian dataset consisting of customer call center queries and responses in instruction-output (jsonl) format. 
-The process is fully reproducible on Google Colab and suitable for instruction-based dialog applications.
+This project demonstrates how to fine-tune the [TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) large language model using QLoRA on a custom Persian dataset 
+tailored for the automotive call center domain.  
+The dataset consists of instruction-style question-answer pairs (in `.jsonl` format) covering real scenarios related to car sales and customer interactions.
+
+Due to the lack of a suitable GPU on the local system, the entire training pipeline has been implemented and tested on **Google Colab**.  
+A fully local, script-based solution will be released soon as soon as the necessary hardware resources become available.
+
 
 ## 🎯 Purpose
 
